@@ -22,12 +22,7 @@ public class BigBroApplication extends TelegramLongPollingBot {
 	static final Logger log = LoggerFactory.getLogger(BigBroApplication.class);
 
 	String tags = "";
-	/* private final static String CHANELID = "-1001742221166";
-	private  final static String SERVICEGROUPID = "-712154919";
-	private final static String BOTUSERNAME = "IT_bro_bot";
-	private final static String TOKEN = "5864814346:AAHIRhcCYWqvLJwXjqRlSHUSfUKto54aKwQ"; */
-
-
+	
 	public void sendPost(String text){
 		SendMessage sendMessage = new SendMessage();
 		sendMessage.enableMarkdown(true);
